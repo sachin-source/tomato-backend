@@ -3,7 +3,6 @@ const { authenticate } = require('../services/comman');
 const router = express.Router();
 
 const userRoutes = require("./user.router");
-const taskRoutes = require("./task.router");
 
 /** GET /health-check - Check service health */
 
